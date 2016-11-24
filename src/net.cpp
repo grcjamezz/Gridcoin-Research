@@ -1905,11 +1905,22 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    {"node.gridcoin.us", "node.gridcoin.us"},
-    {"gridcoin.asia", "gridcoin.asia"},
-	{"amsterdam.grcnode.co.uk", "amsterdam.grcnode.co.uk"},
-	{"london.grcnode.co.uk", "london.grcnode.co.uk"},
-	{"frankfurt.grcnode.co.uk", "frankfurt.grcnode.co.uk"},
+         {"node.gridcoin.us", "node.gridcoin.us"},
+         {"gridcoin.asia", "gridcoin.asia"},
+         {"node1.chick3nman.com", "node1.chick3nman.com"},
+         {"grc.z9.de", "grc.z9.de"},
+         {"typh00n.net", "typh00n.net"},
+         {"amsterdam.grcnode.co.uk", "amsterdam.grcnode.co.uk"},
+         {"frankfurt.grcnode.co.uk", "frankfurt.grcnode.co.uk"},
+         {"quebec.gridcoin.co.il", "quebec.gridcoin.co.il"},
+         {"ils.gridcoin.co.il", "ils.gridcoin.co.il"},
+         {"node.gridcoinapp.xyz", "node.gridcoinapp.xyz"},
+         {"grcnode01.centralus.cloudapp.azure.com", "grcnode01.centralus.cloudapp.azure.com"},
+         {"grcnode02.eastus.cloudapp.azure.com", "grcnode02.eastus.cloudapp.azure.com"},
+         {"grcnode03.westus.cloudapp.azure.com", "grcnode03.westus.cloudapp.azure.com"},
+         {"oregon.gridcoin.stablenode.net ", "oregon.gridcoin.stablenode.net "},
+         {"seattle.grcnode.deluxe-host.net ", "seattle.grcnode.deluxe-host.net "},
+
     {"", ""},
 };
 
